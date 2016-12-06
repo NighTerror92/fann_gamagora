@@ -3,9 +3,9 @@
 
 int main(int argc, char *argv[])
 {
-	train("xor.data", "xor_float.net");
+	train("test.data", "test.net");
 
-
+/*
 	fann_type *calc_out;
 	fann_type input[2];
 
@@ -18,6 +18,6 @@ int main(int argc, char *argv[])
 	printf("xor test (%f,%f) -> %f\n", input[0], input[1], calc_out[0]);
 
 	fann_destroy(ann);
-
+*/
 	return 0;
 }

@@ -8,7 +8,7 @@
 
 void train(const std::string input, const std::string output)
 {
-	const unsigned int num_input = 2;
+	const unsigned int num_input = 5;
 	const unsigned int num_output = 1;
 	const unsigned int num_layers = 3;
 	const unsigned int num_neurons_hidden = 3;
