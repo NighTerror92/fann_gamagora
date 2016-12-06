@@ -4,6 +4,9 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <limits>
+#include <random>
+#include <algorithm>
 #include "fann.h"
 
 struct Ann_parameter {
