@@ -6,7 +6,7 @@ int main(int argc, char *argv[])
 	Ann_parameter ann_parameters = Ann_parameter();
 	train("xor.data", "xor_float.net", ann_parameters);
 
-
+/*
 	fann_type *calc_out;
 	fann_type input[2];
 
@@ -19,7 +19,10 @@ int main(int argc, char *argv[])
 	printf("xor test (%f,%f) -> %f\n", input[0], input[1], calc_out[0]);
 
 	fann_destroy(ann);
+<<<<<<< HEAD:Fann/Fann/main.cpp
 	getchar();
 
+=======
+*/
 	return 0;
 }
