@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\fann">
+      <UniqueIdentifier>{6a9337ae-1d3f-4dbd-a7c4-b436ca4f472f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\fann">
+      <UniqueIdentifier>{119a8a50-32c6-4fed-9f3f-076ffca8d6dd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fann\doublefann.c">
+      <Filter>Source Files\fann</Filter>
+    </ClCompile>
+    <ClCompile Include="fann\fann.c">
+      <Filter>Source Files\fann</Filter>
+    </ClCompile>
+    <ClCompile Include="fann\fann_cascade.c">
+      <Filter>Source Files\fann</Filter>
+    </ClCompile>
+    <ClCompile Include="fann\fann_error.c">
+      <Filter>Source Files\fann</Filter>
+    </ClCompile>
+    <ClCompile Include="fann\fann_io.c">
+      <Filter>Source Files\fann</Filter>
+    </ClCompile>
+    <ClCompile Include="fann\fann_train.c">
+      <Filter>Source Files\fann</Filter>
+    </ClCompile>
+    <ClCompile Include="fann\fann_train_data.c">
+      <Filter>Source Files\fann</Filter>
+    </ClCompile>
+    <ClCompile Include="fann\fixedfann.c">
+      <Filter>Source Files\fann</Filter>
+    </ClCompile>
+    <ClCompile Include="fann\floatfann.c">
+      <Filter>Source Files\fann</Filter>
+    </ClCompile>
+    <ClCompile Include="training.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="training.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fann\include\compat_time.h">
+      <Filter>Header Files\fann</Filter>
+    </ClInclude>
+    <ClInclude Include="fann\include\config.h">
+      <Filter>Header Files\fann</Filter>
+    </ClInclude>
+    <ClInclude Include="fann\include\doublefann.h">
+      <Filter>Header Files\fann</Filter>
+    </ClInclude>
+    <ClInclude Include="fann\include\fann.h">
+      <Filter>Header Files\fann</Filter>
+    </ClInclude>
+    <ClInclude Include="fann\include\fann_activation.h">
+      <Filter>Header Files\fann</Filter>
+    </ClInclude>
+    <ClInclude Include="fann\include\fann_cascade.h">
+      <Filter>Header Files\fann</Filter>
+    </ClInclude>
+    <ClInclude Include="fann\include\fann_cpp.h">
+      <Filter>Header Files\fann</Filter>
+    </ClInclude>
+    <ClInclude Include="fann\include\fann_data.h">
+      <Filter>Header Files\fann</Filter>
+    </ClInclude>
+    <ClInclude Include="fann\include\fann_error.h">
+      <Filter>Header Files\fann</Filter>
+    </ClInclude>
+    <ClInclude Include="fann\include\fann_internal.h">
+      <Filter>Header Files\fann</Filter>
+    </ClInclude>
+    <ClInclude Include="fann\include\fann_io.h">
+      <Filter>Header Files\fann</Filter>
+    </ClInclude>
+    <ClInclude Include="fann\include\fann_train.h">
+      <Filter>Header Files\fann</Filter>
+    </ClInclude>
+    <ClInclude Include="fann\include\fixedfann.h">
+      <Filter>Header Files\fann</Filter>
+    </ClInclude>
+    <ClInclude Include="fann\include\floatfann.h">
+      <Filter>Header Files\fann</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
