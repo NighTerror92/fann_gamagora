@@ -5,6 +5,7 @@ int main(int argc, char *argv[])
 {
 	Ann_parameter ann_parameters = Ann_parameter();
 	train("xor.data", "xor_float.net", ann_parameters);
+	cross_validate("xor.data", 4, ann_parameters);
 
 /*
 	fann_type *calc_out;

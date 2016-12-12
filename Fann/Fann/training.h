@@ -7,7 +7,7 @@
 #include <limits>
 #include <random>
 #include <algorithm>
-#include "fann.h"
+#include "fann\include\fann.h"
 
 struct Ann_parameter {
 	unsigned int num_input = 2;
@@ -37,8 +37,8 @@ struct Ann_parameter {
 void train(const std::string input, const std::string output, const Ann_parameter params);
 
 /**
-	effectue une validation croisée sur pour un ann, retourne le pourcentage de succes
+	effectue une validation croisée sur pour un ann, retourne l'erreur quadratique moyenne
 */
-double cross_validate(const std::string input_file, unsigned int nb_validation);
+double cross_validate(const std::string input_file, unsigned int nb_validation, const Ann_parameter params);
 
 #endif // TRAINING_H
