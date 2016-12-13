@@ -66,10 +66,10 @@ double cross_validate(const std::string input_file, unsigned int nb_validation, 
 		for (unsigned int j = 0; j < nb_data; ++j) {
 			if (j != permutation_table[i]) {
 				for (unsigned int cpt_input = 0; cpt_input < nb_input; ++cpt_input)
-					output_file_stream << fann_data[j].input[cpt_input];
+					output_file_stream << fann_data[j].input[cpt_input] << ' ';
 				output_file_stream << '\n';
 				for (unsigned int cpt_output = 0; cpt_output < nb_output; ++cpt_output)
-					output_file_stream << fann_data[j].output[cpt_output];
+					output_file_stream << fann_data[j].output[cpt_output] << ' ';
 				output_file_stream << '\n';
 			}
 		}
