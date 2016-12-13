@@ -19,8 +19,8 @@ int main(int argc, char** argv)
 		int 		player_score = 		strtoint(argv[2]);
 		int 		survival_time = 	strtoint(argv[3]);
 		int 		unmoving_time = 	strtoint(argv[4]);
-		int			collision_count = 	strtoint(argv[5]);
-		int			wall_count =		strtoint(argv[6]);
+		int			object_count = 		strtoint(argv[5]);
+		int			miss_count =		strtoint(argv[6]);
 
 		// Create network
 		struct fann *network = fann_create_from_file(network_file);
@@ -31,8 +31,8 @@ int main(int argc, char** argv)
 			inputs[0] = (float)player_score;
 			inputs[1] = (float)survival_time;
 			inputs[2] = (float)unmoving_time;
-			inputs[3] = (float)collision_count / (float)survival_time;
-			inputs[4] = (float)wall_count / (float)survival_time;
+			inputs[3] = (float)object_count / (float)survival_time;
+			inputs[4] = (float)miss_count / (float)survival_time;
 
 			// Run network
 			fann_type* output = fann_run(network, inputs);
