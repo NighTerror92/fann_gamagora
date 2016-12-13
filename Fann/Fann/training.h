@@ -10,18 +10,18 @@
 #include "fann\include\fann.h"
 
 struct Ann_parameter {
-	unsigned int num_input = 2;
-	unsigned int num_output = 1;
-	unsigned int num_layers = 3;
-	unsigned int num_neurons_hidden = 3;
-	float desired_error = 0.001f;
-	unsigned int max_epochs = 500000;
-	unsigned int epochs_between_reports = 1000;
+	unsigned int num_input;
+	unsigned int num_output;
+	unsigned int num_layers;
+	unsigned int num_neurons_hidden;
+	float desired_error;
+	unsigned int max_epochs;
+	unsigned int epochs_between_reports;
 
-	Ann_parameter(unsigned int _num_input = 2,
+	Ann_parameter(unsigned int _num_input = 5,
 		unsigned int _num_output = 1,
 		unsigned int _num_layers = 3,
-		unsigned int _num_neurons_hidden = 3,
+		unsigned int _num_neurons_hidden = 5,
 		float _desired_error = 0.001,
 		unsigned int _max_epochs = 500000,
 		unsigned int _epochs_between_reports = 1000

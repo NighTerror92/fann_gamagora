@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Fann", "Fann\Fann.vcxproj", "{7B80E2E3-2BAB-4FAB-972F-C9222D7903C6}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Fann_train", "Fann\Fann.vcxproj", "{7B80E2E3-2BAB-4FAB-972F-C9222D7903C6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Fann_run", "Fann_run\Fann_run.vcxproj", "{237FBDB9-4548-4175-AAD4-11DFC7D246AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,6 +24,14 @@ Global
 		{7B80E2E3-2BAB-4FAB-972F-C9222D7903C6}.Release|x86.ActiveCfg = Release|Win32
 		{7B80E2E3-2BAB-4FAB-972F-C9222D7903C6}.Release|x86.Build.0 = Release|Win32
 		{7B80E2E3-2BAB-4FAB-972F-C9222D7903C6}.Release|x86.Deploy.0 = Release|Win32
+		{237FBDB9-4548-4175-AAD4-11DFC7D246AC}.Debug|x64.ActiveCfg = Debug|x64
+		{237FBDB9-4548-4175-AAD4-11DFC7D246AC}.Debug|x64.Build.0 = Debug|x64
+		{237FBDB9-4548-4175-AAD4-11DFC7D246AC}.Debug|x86.ActiveCfg = Debug|Win32
+		{237FBDB9-4548-4175-AAD4-11DFC7D246AC}.Debug|x86.Build.0 = Debug|Win32
+		{237FBDB9-4548-4175-AAD4-11DFC7D246AC}.Release|x64.ActiveCfg = Release|x64
+		{237FBDB9-4548-4175-AAD4-11DFC7D246AC}.Release|x64.Build.0 = Release|x64
+		{237FBDB9-4548-4175-AAD4-11DFC7D246AC}.Release|x86.ActiveCfg = Release|Win32
+		{237FBDB9-4548-4175-AAD4-11DFC7D246AC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

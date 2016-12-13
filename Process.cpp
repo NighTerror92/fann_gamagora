@@ -1,4 +1,5 @@
 #include <fann.h>
+#include <iostream>
 
 int strtoint(const char* str);
 
@@ -38,10 +39,12 @@ int main(int argc, char** argv)
 			fann_type* output = fann_run(network, inputs);
 			int result = output[0] > 0.0f;
 			fann_destroy(network);
-			return result;
+			std::cout << "result: " << result;
+			return 0;
 		}
 		return -2;
 	}
+	std::cout << "usage: " << argv[0] << " network_file " << "player_score " << "survival_time " << "unmoving_time " << "collision_count " << "wall_count \n";
 	return -1;
 }
 
